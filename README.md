@@ -4,4 +4,4 @@ Gold jewelry website project for showcasing collections, services, and customer 
 
 ## Project Status
 
-Planning and sprint definition are in progress.
+Sprint 1 brand foundation is complete. See [docs/brand-foundation.md](docs/brand-foundation.md).
