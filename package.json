@@ -1,0 +1,27 @@
+{
+  "name": "banik-jewelers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.468.0",
+    "next": "^16.2.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "25.6.2",
+    "@types/react": "19.2.14",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.2.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.7.2"
+  }
+}

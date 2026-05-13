@@ -89,6 +89,32 @@ Initial landing site:
 
 The first version should not include cart or checkout. The best conversion path is inquiry and appointment/contact.
 
+## Approved Technical Direction
+
+This project will use the **Heritage-Tech** stack:
+
+- Framework: `Next.js 15+` with React
+- Styling: `Tailwind CSS`
+- Animations: `Framer Motion`
+- Images: `next/image` first, with Cloudinary as a later option if the catalogue grows or remote image management becomes important
+- Deployment: `Vercel`
+
+Rationale:
+
+- Next.js gives the site strong SEO, fast page delivery, and a natural Vercel deployment path.
+- Tailwind supports the luxury visual system without a heavy CSS framework.
+- Framer Motion will provide restrained, premium-feeling motion such as slow fades, reveal transitions, and subtle shimmer accents.
+- `next/image` will handle responsive image optimization for the initial catalogue while keeping the implementation simple.
+- Vercel will connect directly to GitHub so updates can deploy from the repository.
+
+Implementation guardrails:
+
+- Use server-rendered pages for the primary marketing and catalogue surfaces.
+- Keep animations subtle and slow; motion should feel polished, not busy.
+- Preserve original photos and generate optimized web assets separately when needed.
+- Avoid adding ecommerce infrastructure in the first build.
+- Favor component-level composition so future catalogue details, appointment booking, or ecommerce can be added cleanly.
+
 ## Page Goals
 
 ### Home

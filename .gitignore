@@ -6,6 +6,7 @@ dist/
 build/
 .next/
 out/
+tsconfig.tsbuildinfo
 
 # env
 .env
@@ -21,3 +22,11 @@ pnpm-debug.log*
 
 # system
 .DS_Store
+
+# local dev server
+.next-dev.pid
+.next-dev.log
+
+# local source photo albums
+photos/
+allPhotos/
